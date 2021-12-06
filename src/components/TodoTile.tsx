@@ -8,11 +8,8 @@ export const TodoTile = (props: { todo: Todo }) => {
 
   return (
     <li id={id} className="todo-item" key={id}>
-      <span
-        style={{ cursor: "pointer" }}
-        onClick={() => dispatch(completeTodo(id))}
-      >
-        {name}{" "}
+      <span className="todo-name" onClick={() => dispatch(completeTodo(id))}>
+        {name}
       </span>
       <span>
         {done && <button className="done">&#x2713;</button>}

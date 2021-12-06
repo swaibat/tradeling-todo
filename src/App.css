@@ -8,6 +8,7 @@ body {
   justify-content: space-between;
   border-bottom: solid 1px gainsboro;
   padding: 5px;
+  cursor: pointer;
 }
 
 .done {
@@ -18,4 +19,14 @@ body {
   font-size: 11.5px;
   border: "none";
   margin-right: 2px;
+}
+
+.todo-name {
+  cursor: "pointer";
+  width: "100%";
+  text-align: "left";
+}
+
+.todo-item:hover {
+  background: rgb(233, 231, 231);
 }

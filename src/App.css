@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px gainsboro;
+  padding: 5px;
+}
+
+.done {
+  margin-left: "auto";
+  background: "green";
+  color: "white";
+  padding: 2px;
+  font-size: 11.5px;
+  border: "none";
+  margin-right: 2px;
+}
